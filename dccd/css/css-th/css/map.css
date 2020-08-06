@@ -1,0 +1,95 @@
+
+/* SECTION FORM LIÊN HỆ */
+.title .title-box {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    z-index: -1;
+}
+.title .title-box .bt-box{
+    width: 100%;
+    height: 26px;
+    background: #613c3e;
+}
+body h2{
+    font-family: UTM Alter Gothic;
+    font-size: 60px;
+}
+p{
+    font-size: 24px;
+}
+.lienhe{
+        background: #202421;
+}
+.box-triangle{
+    width: 36px;
+    height: 28px;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    border-bottom: 11px solid #202421;
+    background-color: transparent;
+    border-left: 5px solid transparent;
+    transform: rotate(-38deg);
+    border-right: 5px solid transparent;
+}
+.form-dccd button{
+    background-color: #bb0e1f;
+    border-radius: 0;
+    padding-right: 10px;
+    padding-left: 34px;
+    width: 237px;
+    height: 47px;
+    position: relative;
+}
+.form-dccd button:hover{
+    background-color: #613c3e;
+}
+
+.form-dccd button img{
+    width:20px;
+    margin-left:30px;
+}
+.form-dccd .ibox-triangle .box-triangle{
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    top: -17px;
+    left: -13px;
+    border-bottom: 11px solid #202421;
+    background-color: transparent;
+    border-left: 5px solid transparent;
+    transform: rotate(-38deg);
+    border-right: 5px solid transparent;
+}
+.box-triangle-lg{
+    width: 48px;
+    height: 43px;
+    position: absolute;
+    top: -24px;
+    left: -21px;
+    border-bottom: 19px solid #202421;
+    background-color: transparent;
+    border-left: 2px solid transparent;
+    transform: rotate(-38deg);
+    border-right: 5px solid transparent;
+    opacity: 0.3;
+}
+.titlelight h2{
+    color: #be1a2b;
+}
+.titlelight .title-box .bt-box{
+    background: #efc7cb;
+}
+
+@media screen and (max-width: 1200px){
+    body h2{
+        font-size: 48px;
+    }
+    .title .title-box {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        z-index: -1;
+    }
+}

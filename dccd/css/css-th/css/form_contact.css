@@ -1,0 +1,254 @@
+.page_contact{
+	background: rgba(0, 0, 0, 1) 0% 0% no-repeat padding-box;
+	padding: 4% 0px;
+}
+.page_contact .group_input{
+	width: 50%;
+	padding: 0px 22px;
+	float: left;
+	position: relative;
+}
+.page_contact .full_group{
+	width: 100%;
+	
+}
+.page_contact .group_input:after{
+	position: absolute;
+	content: '';
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid black;
+	left: 15px;
+	top: -3px;
+	transform: rotateZ(-47deg);
+}
+.page_contact form{
+	display: flex;
+	flex-wrap: wrap;
+}
+.page_contact .group_input input{
+	font-size: 1.6rem;
+	height: 47px;
+	background: #fff;
+	width: 100%;
+	outline: none;
+	padding: 0px 10px;
+	margin-bottom: 30px;
+	border: 0px;
+}
+.page_contact .group_input textarea{
+	font-size: 1.6rem;
+	width: 100%;
+	padding: 10px;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 70px;
+	max-height: 150px;
+}
+.submit_f{
+	float: right;
+	background: transparent;
+	border: 0px;
+	outline: none;
+	display: block;
+	padding: 12px 30px;
+	position: relative;
+	font-size: 1.6rem;
+	color: #fff;
+	overflow: hidden;
+}
+.submit_f:before {
+	content: '';
+	position: absolute;
+	width: calc(100% - 20%);
+	left: 18%;
+	border: 0px;
+	height: 100%;
+	background: #bb0e1f;
+	background-size: cover;
+	transform: unset;
+	bottom: 0;
+	top: unset;
+	transition: all .5s;
+
+}
+.submit_f:after {
+	width: 20%;
+	border: 0px;
+	height: 100%;
+	background: url(../images/btn_lh.png);
+	background-size: cover;
+	transform: unset;
+	bottom: 0;
+	top: unset;
+	content: '';
+	left: 0;
+	position: absolute;
+}
+.submit_f span {
+	position: relative;
+	z-index: 9;
+}
+.checkbox_t input {
+	opacity: 0;
+	z-index: 99;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+.checkbox_t {
+	position: relative;
+	display: inline-block;
+}
+
+.checkbox_t {
+	vertical-align: bottom;
+}
+.checkbox_t label:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+	z-index: 9;
+	line-height: 20px;
+}
+.checkbox_t label:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #8D8D8D;
+	content: '';
+	z-index: 9;
+}
+.checkbox_t input[type=checkbox]:checked+label::before, 
+.checkbox_t input[type=radio]:checked+label::before {
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+.dsf{
+	display: flex;
+	align-items: center;
+	padding-top: 20px !important;
+}
+.dsf >div{
+	width: 100%;
+}
+.dsf label{
+	color: #fff;
+	margin-left: 25px;
+	font-size: 1.2rem;
+}
+@media(max-width: 767px){
+	.page_contact .group_input{
+		width: 100% !important;
+		padding: 0px 0px;
+	}
+	.page_contact .group_input:after {
+
+		left: -8px;
+
+	}
+	.dsf{
+		flex-wrap: wrap;
+	}
+}
+.loader_div {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background: #ffff;
+}
+.loader {
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	display: flex;
+	background: white;
+	margin:  0 auto;
+	/*height: 100%;*/
+	box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
+}
+
+.loader span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #eee;
+	border-radius: 50%;
+	margin: 0 5px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.loader span:nth-child(2) {
+	background: #f07e6e;
+}
+
+.loader span:nth-child(3) {
+	background: #84cdfa;
+}
+
+.loader span:nth-child(4) {
+	background: #5ad1cd;
+}
+
+.loader span:not(:last-child) {
+	animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(30px);
+	}
+}
+
+.loader span:last-child {
+	animation: jump 1.5s ease-in-out infinite;
+}
+
+@keyframes jump {
+	0% {
+		transform: translate(0, 0);
+	}
+	10% {
+		transform: translate(10px, -10px);
+	}
+	20% {
+		transform: translate(20px, 10px);
+	}
+	30% {
+		transform: translate(30px, -50px);
+	}
+	70% {
+		transform: translate(-150px, -50px);
+	}
+	80% {
+		transform: translate(-140px, 10px);
+	}
+	90% {
+		transform: translate(-130px, -10px);
+	}
+	100% {
+		transform: translate(-120px, 0);
+	}
+}
+

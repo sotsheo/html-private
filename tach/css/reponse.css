@@ -1,0 +1,378 @@
+@media(max-width: 1366px){
+	.item_calendar{
+		padding: 20px;
+		width: 33.33%;
+	}
+	.item_calendar{
+		font-size: 9rem;
+	}
+	.calendar_in .item_calendar {
+		height: 28rem;
+	}
+	.item_calendar p {
+		line-height: normal !important;
+		height: auto !important;
+		display: block !important;
+	}
+	.info_calendar .item_calendar{
+		width: 100%;
+	}
+	.img_left_in {
+    	width: 40%;
+	}
+	.text_left_in {
+    	width: 40%; 
+	}
+	.img_right_in {
+    	width: 20%; 
+	}
+}
+@media(max-width: 992px){
+	.img_right_in {
+    	display: none;
+	}
+	.text_left_in {
+    	width: 60%; 
+	}
+	.item_calendar{
+		width: 50%;
+	}
+	.info_calendar .item_calendar {
+		padding: 20px;
+		height: 25vh;
+	}
+	.content_page_one .left,.content_page_one .right {
+		width: 100%;
+		float: left;
+		height: 50vh;
+	}
+	.content_page_one .left .content_text h2 {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.content_page_one .right {
+		width: 100%;
+		float: left;
+		
+	}
+	.content_page_one .left .content_text p {
+		font-size: 12px;
+	}
+	.background_n {
+		width: 100vw;
+		border-bottom: 2px solid #fff;
+		top: 0;
+		position: unset;
+		transform: rotate(0deg);
+		transform-origin:0%;
+	}
+	.content_page_one .play_out {
+		padding: 20px 0px;
+	}
+	.block_class .content_img .img{
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		display: flex;
+		align-items: center;
+	}
+	.text_group_left {
+		top: 10%;
+		width: 40%;
+		display: none;
+	}
+	.header h3 {
+		font-size: 2rem;
+		text-align: right;
+		padding: 10px;
+	}
+	.header h3 img{
+		display: none;
+	}
+	.item_news .content_text h2 {
+		font-size:2rem;
+
+	}
+	.item_news .content_text p {
+		font-size:1.2rem;
+
+	}
+	.img_left{
+		display: none;
+	}
+	.content_news{
+		padding:2% 3%;
+	}
+	.left._form_ct .form_contact {
+		margin: 0px;
+		width: calc(100% - 30px);
+		margin-left: 15px;
+		top: 0vh;
+		height: 95vh;
+	}
+	.left._form_ct {
+		width: 100%;
+	}
+	.img_right_bg {
+		display: none;
+	}
+	.form_contact .grid {
+		flex-wrap: wrap;
+	}
+	.form_contact .grid>div {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.bg_n{
+		display: none;
+	}
+	.play_out{
+		display: none;
+	}
+	.info_calendar .item_calendar h3 {
+		font-size: 4rem;
+	}
+	.item_calendar p.des {
+		font-size: 1.5rem;
+	}
+	.item_calendar p {
+		font-size: 1rem;
+	}
+	.item_calendar a.line {
+		font-size: 16px;
+	}
+	.item_calendar a.line img{
+		width: 50px;
+	}
+	.calendar_in .title h2 {
+		font-size: 16px;
+	}
+	.img_right {
+		display: none;
+	}
+	.text_group_right {
+		bottom: 3%;
+		right: auto;
+		left: 10%;
+		width: 80%;
+	}
+	.text_group_right img{
+		max-width: 100%;
+	}
+	.group_text {
+		display: none;
+	}
+	.page_view>div{
+		width: 100%;
+	}
+	.page_view>div.left {
+		display: none;
+	}
+	.page_view .right h2 {
+		font-size: 2.5rem;
+	}
+	.page_view .right h2 {
+		font-size: 2.5rem;
+	}
+	.page_view .right .item a {
+		font-size: 2.5rem;
+	}
+	.page_view .right .item p {
+		font-size: 1rem;
+	}
+	.detail_calendar{
+		padding: 0px;
+	}
+	.items_calendar .item h3 {
+		font-size: 1.4rem;
+	}
+	.items_calendar .item h2 {
+		font-size: 8.5rem;
+	}
+	.items_calendar .item p.ds {
+		font-size: 1.4rem;
+	}
+	.items_calendar .item p.name,.items_calendar .item p{
+		font-size: 1.2rem;
+	}
+	.items_calendar .item .read_more {
+		bottom: 12%;
+	}
+	.programe h2 {
+		font-size: 5.8rem;
+	}
+	.programe {
+		left: calc(100% - 50px);
+	}
+	.w5{
+		width: 100%;
+		height: auto;
+	}
+	.w6{
+		width: 100%;
+		height: auto;
+	}
+	.w4{
+		width: 100%;
+		height: auto;
+	}
+	.space .space_detail{
+		height: 50vh;
+	}
+	.detail_calendar .left>img{
+		height: 50vh;
+		margin: 0 auto;
+		width: 100%;
+		
+	}
+	.space .space_detail {
+		padding: 30px 15px;
+		overflow: scroll;
+		display: block;
+	}
+	
+	.detail_day{
+		height: auto;
+	}
+	.detail_day .items {
+		flex-wrap: wrap;
+	}
+	.detail_day .item_day {
+		width: 100%;
+	}
+	
+	.w5 .detail_day {
+		height: 75vh;
+	}
+	.w5 {
+		float: none;
+	}
+	.detail_day .item_day h3 {
+
+		font-size: 2.1rem;
+	}
+	.detail_day .item_day p.ds {
+
+		font-size: 1.6rem;
+	}
+	.detail_day{
+		display: none;
+	}
+	.detail_day .item_day p {
+
+		font-size: 1.2rem;
+	}
+
+	.detail_day.active{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(0,0,0,.5);
+		z-index: 999;
+		display: block;
+	}
+	.detail_day.active .items{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		overflow-y: scroll;
+		background: #fff;
+	}
+	.programe {
+		position: absolute;
+
+		bottom: -185px;
+
+	}
+	.detail_day.active .close_p{
+		display: block;
+		z-index: 9999;
+	}
+	.w2,.w8,.w6{
+		width: 100%;
+		height: auto;
+	}
+	.detail_calendar .detail_p {
+		padding: 20px;
+	}
+	.detail_calendar  .imgs {
+		display: none;
+	}
+	.detail_calendar .detail_p h3 {
+		font-size: 2.5rem;
+	}
+	.detail_calendar .detail_p h2 {
+		font-size: 2rem;
+	}
+	.detail_calendar .detail_p p {
+		margin-bottom: 15px;
+	}
+	.detail_calendar .detail_p{
+		max-height: 80vh;
+		overflow: scroll;
+	}
+	.programe{
+		display: none;
+	}
+	.detail_space {
+		padding: 0px;
+	}
+	.detail_space {
+		max-height: 100vh;
+		overflow: scroll;
+	}
+
+}
+@media(max-width: 767px){
+	.img_left_in {
+    	display: none;
+	}
+	.text_left_in h3 {
+    	font-size: 2.6rem;
+   
+	}
+	.text_left_in{
+		width: 100%;
+	}
+	.menu_left h2 {
+		width: 25%;
+		font-size: 3rem;
+	}
+	.menu_left ul li a {
+		font-size: 1.5rem;
+	}
+	.item_calendar{
+		width: 100%;
+	}
+	.calendar_in .item_calendar {
+		height: auto;
+	}
+	.menu_left {
+		height: 70px;
+	}
+	.description_news {
+		flex-wrap: wrap;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.description_news h3 {
+		font-size: 2.5rem;
+		height: 66px;
+	}
+	.detail_news {
+		padding-left: 0px;
+	}
+	.description_news >div {
+		width: 100%;
+		padding: 5%;
+	}
+	.background_n.background_in {
+		width: 100vw;
+	}
+	.title_news{
+		display: none;
+	}
+}

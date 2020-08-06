@@ -1,0 +1,12 @@
+@font-face {
+    font-family:font_strong;
+    src:url('../font/u') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@import url('cssteam.css');
+@import url('footerlienhe.css');
+@import url('formlienhe.css');
+@import url('maps.css');

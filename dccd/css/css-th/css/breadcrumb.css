@@ -1,0 +1,48 @@
+.breadcrumb_th {
+    background: #202421;
+    margin-bottom: 1%;
+   
+}
+.page_breadcrumb{
+	 position: relative;
+	 padding-left: 50px;
+}
+
+.page_breadcrumb:before{
+	content: '';
+	width: 44px;
+	height: 1px;
+	background: #FFFFFF;
+	left: 0;
+	position: absolute;
+	top: 50%;
+
+}
+.breadcrumb_th ul{
+	display: flex;
+}
+.breadcrumb_th ul li a{
+	font-size: 1.4rem;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	padding: 0px 10px;
+	position: relative;
+}
+.breadcrumb_th ul li:not(:first-child) a:before{
+	position: absolute;
+	left: 0;
+	top: 10%;
+	width: 1px;
+	height: 80%;
+	content: '';
+	background: #FFFFFF;
+	transform: rotateZ(25deg);
+}
+
+.bgw ul li a{
+	color: rgba(23, 41, 26, 1);
+}
+.bgw ul li:not(:first-child) a:before,
+.bgw .page_breadcrumb:before{
+	background:  rgba(23, 41, 26, 1);
+}

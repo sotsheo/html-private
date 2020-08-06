@@ -1,0 +1,89 @@
+
+/* SECTION MAPS */
+.maps .headquarters{
+    background-color: #fff;
+}
+.headquarters h3{
+    color: #be1a2b;
+}
+p{
+    font-size: 16px;
+}
+.mapsgtct {
+    background-color: #202421;
+}
+.mapsgtct .headquarters{
+    display: inline-block;
+
+}
+.mapsgtct .headquarters p{
+   font-size: 14px;
+}
+.mapsgtct .headquarters .img{
+   width:26px;
+    height:35px;
+
+}
+.mapsgtct .headquarters h3{
+    font-size: 16px;
+}
+.map-row{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+/* SLIDE MAPS */
+
+/*
+
+.slide-maps .slick-prev{
+    display: inline-block;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    position: absolute;
+    left: -35px;
+    bottom: 20px;
+}
+.slide-maps .slick-prev:focus{
+   outline: 0;
+}
+*/
+
+.slide-maps .slick-prev:before{
+    content: '\f177';
+    font-family: fontawesome;
+    position: absolute;
+    bottom: -120px;
+    font-size: 34px;
+    left: -10px;
+}
+.slide-maps .slick-next:before{
+    content: '\f178';
+    font-family: fontawesome;
+    font-size: 34px;
+    position: absolute;
+    bottom: -120px;
+    left: -914px;
+    color: #3C4E40;
+}
+@media screen and (max-width: 1200px){
+    .slide-maps .slick-next,.slide-maps .slick-prev{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

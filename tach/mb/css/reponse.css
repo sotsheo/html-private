@@ -1,0 +1,5 @@
+@media(max-width: 400px){
+	.event_list .item .content_text p{
+		font-size: 2rem;
+	}
+}

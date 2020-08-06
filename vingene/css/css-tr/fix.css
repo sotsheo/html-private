@@ -1,0 +1,122 @@
+
+.posts-service .post-item .content-box-service .btn-service{
+    padding-top: 9px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url(../../img/imgchange/bgbutton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: light;
+    font-weight: 600;
+
+}
+
+.posts-service .post-item:hover .content-box-service .btn-service{
+    color: #fff;
+    background-color: #056839;
+}
+
+.address-service .btn-service-icon{
+    font-size: 14px;
+    color: #fff;
+    background-color: #056839;
+    background-image: url(../../img/imgchange/bgbutton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    font-family: SemiBold;
+    font-weight: bold;
+    text-shadow: none;
+    padding-right: 36px;
+    position: relative;
+    border-radius: 29px;
+}
+.address-service .btn-service-icon:before{
+    position: absolute;
+    content: url(../../img/imgchange/pdf.png);
+    right: 8px;
+}
+
+.contact-us-fix .left-contact .contact-form .fix-icon span{
+    position: relative;
+}
+.contact-us-fix .left-contact .contact-form .fix-icon span:before{
+    position: absolute;
+    content: url(../../img/imgchange/bottom.png);
+    right: 4px;
+    top: -2px;
+    padding-right: 15px;
+    background-color: #eef4f1;
+    border-radius: 25px;
+}
+
+.service-advisory .service-advisory-button .btn-ad-service:after{
+    content: url(../../img/imgchange/calendarfff.png);
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+.service-advisory .service-advisory-button .btn-ad-service{
+    background-color: #056839;
+    color: #fff;
+    background-image: url(../../img/imgchange/bgbutton.png);
+    background-size: cover;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 57px;
+    padding-right: 25px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    position: relative;
+}
+
+.document-service .do-items .document-item ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 35px;
+}
+.document-service .do-items .document-item ul li:before{
+    position: absolute;
+    content: url("../../img/imgchange/pdfxanh.png");
+    left:0;
+}
+.price-detail .price-item h4{
+    margin-top:0;
+}
+.price .btn-service{
+    color:#056839 !important;
+}
+
+.price .btn-service:hover{
+    color:#fff !important;
+}
+
+.price-item .btn-readmore .detail-icon{
+    position: relative;
+    padding-right:30px;
+}
+.price-item .btn-readmore .detail-icon:before{
+    position: absolute;
+    content: url("../../img/imgchange/right1.png");
+    right:0;
+}
+.price-detail .box-price-item{
+    position: relative;
+}
+.price-detail .box-price-item:before{
+    position: absolute;
+    content: url("../../img/imgchange/rightwhite.png");
+    right:15px;
+}
+
+
+
+
+
+
+
+

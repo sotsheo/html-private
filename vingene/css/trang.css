@@ -1,0 +1,512 @@
+@import url('css-tr/responsive-mobile.css');
+@import url('css-tr/fix.css');
+
+
+.bg-color-dangki{
+    background-color: transparent;
+
+}
+
+.phieuketqua{
+    width: 746px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px #00000029;
+    background-color:#fff;
+    position: relative;
+}
+.phieuketqua .modal-footer{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    background-color: transparent;
+    border: none;
+}
+.phieuketqua .modal-footer img{
+    width:16px;
+}
+.title-phieuketqua{
+    display:flex;
+    background-image: url("../img/imgchange/ketquaxetnghiem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title-phieuketqua:before{
+   position: absolute;
+    content: '';
+    width:100%;
+    height:100%;
+    top:0;
+    background-color:#056839cc;
+}
+.title-phieuketqua h3{
+    color:#fff;
+    font-size: 30px;
+    z-index: 1;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    font-family: light;
+    font-weight: bold;
+}
+.title-phieuketqua .button-close{
+    z-index: 2;
+    position: absolute;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    top: 15px;
+
+}
+.title-phieuketqua .button-close img{
+   width: 16px;
+
+}
+.phieuketqua .btn-service{
+    font-size: 18px;
+    background-color: #056839;
+    background-image: none;
+    color: #fff;
+    font-family: light;
+    padding-top:10px;
+    padding-bottom:7px;
+    padding-left:22px;
+    padding-right:22px;
+}
+.content-phieuketqua{
+    margin-left: 60px;
+    margin-top: 59px;
+    margin-bottom: 36px;
+    display:inline-block;
+}
+.content-phieuketqua table{
+    float:left;
+}
+.content-phieuketqua strong, .content-phieuketqua p{
+   color:#056839;
+}
+.item-content{
+    display: flex;
+}
+.item-content th{
+    width:85px;
+}
+.item-content td{
+   margin-left:50px;
+}
+.button-bottom{
+    margin-left:60px;
+    margin-bottom: 45px;
+}
+.dangki .form-dangkixetnghiem{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:50px;
+    margin-bottom: 0;
+}
+.dangki .form-dangkixetnghiem .contact-form input{
+    margin-bottom: 32px;
+}
+.button-dangkixetnghiem{
+    margin-left: 40px;
+    margin-right:40px;
+}
+.button-dangkixetnghiem button{
+    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.form-dangkixetnghiem .contact-form input:nth-child(4){
+    position: relative;
+}/*
+.form-dangkixetnghiem .contact-form input:nth-child(4):before{
+    content: url(../img/imgchange/calendar.png);
+    position: absolute;
+}*/
+.form-dangkixetnghiem .contact-form input{
+    position: relative;
+}
+.form-dangkixetnghiem .contact-form i:before{
+    content: '\f073';
+    font-family: fontawesome;
+    position: absolute;
+}
+.button-close:focus{
+    outline: none;
+    cursor: pointer;
+}
+.button-close:hover{
+    cursor: pointer;
+}
+.btn-clear{
+    float:right;
+}
+.btn-clear img{
+    margin-left:15px;
+}
+.kq-xn .phieuketqua{
+    display: none;
+}
+.show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.out-address-3 .box-slide-l{
+    border:none;
+    padding:0;
+}
+.out-address-3 .box-slide-l:hover{
+    border:none;
+    box-shadow: none;
+}
+.out-address-3 .box-slide-l .item-box{
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    padding-top: 39px;
+    padding-bottom: 33px;
+    padding-left: 34px;
+    padding-right: 15px;
+    margin-top:13px;
+    margin-bottom: 13px;
+}
+.out-address-3 .box-slide-l .item-box:hover{
+    border: none;
+    box-shadow: 0px 3px 15px #00000029;
+    transition: 0.5s;
+}
+.icon-dangki{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    float:right;
+}
+.icon-dangki .calendar, .icon-dangki .address{
+    width: 96%;
+}
+.icon-dangki img{
+    position: absolute;
+    color: #106a45;
+    right: 9%;
+    top: 12%;
+
+}
+
+/*CSS KIEEUR KHOONG THEER CHAAPS NHAANJ DDWWOCJ*/
+.icon-select{
+    position: relative;
+}
+/* banner */
+.banner-blur{
+    position: relative;
+}
+.banner-blur:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height:100%;
+    background-color:#00000042;
+    top:0;
+}
+.address-diachi{
+    margin-bottom: 74px;
+}
+.address-diachi .box-slide .box-slide-l{
+    border:none;
+    padding:0;
+}
+.address-diachi .box-slide .box-slide-l .box-slide-item{
+    border: 1px solid #CFCFCF;
+    padding: 35px 20px;
+    border-radius: 8px;
+    margin-top:13px;
+    margin-bottom: 13px;
+}
+.address-diachi .box-slide .box-slide-l .box-slide-item:hover{
+    box-shadow: 0px 3px 15px #00000029;
+}
+.address-diachi .box-slide .box-slide-l:hover{
+    box-shadow: none;
+}
+.address-diachi .owl-prev img, .address-diachi .owl-next img{
+    display:none;
+}
+/* LIEN HE  */
+.contact-us-fix{
+    margin-bottom: 56px;
+    display: inline-block;
+    width: 100%;
+}
+.contact-us-fix .left-contact,.contact-us-fix .right-info{
+    width:50%;
+    float:left;
+
+}
+.contact-us-fix .left-contact .contact-form{
+    width: 552px;
+    float:right;
+    padding-right:30px;
+}
+
+.contact-us-fix .left-contact .contact-form .choose-service{
+    border: 1px solid #106A3F;
+    border-radius: 21px;
+    margin-bottom: 43px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    background-color: #106a3f12;
+    width: 100%;
+    color: #106A3F;
+    font-family: light;
+    font-weight: 600;
+}
+
+.contact-us-fix .left-contact .contact-form .choose-service:focus{
+  outline: 0;
+}
+.contact-us-fix .left-contact .btn-service{
+
+    font-size: 20px;
+    padding: 7px 24px;
+    font-family: light;
+    color: #fff;
+    background-color: #056839;
+    background-image: url(../img/imgchange/bgbutton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-us-fix .right-info{
+    background-image: url(../img/imgchange/contactus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -5;
+}
+.contact-us-fix .right-info:before{
+    content: '';
+    background-color: #056839d6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.contact-us-fix .right-info .address-box h2, .contact-us-fix .right-info .address-box h4{
+    color:#fff;
+}
+.contact-us-fix .right-info .address-box .contact-box{
+    display:inline-block;
+    width:100%;
+    margn-top:15px;
+    margin-bottom: 15px;
+}
+.contact-us-fix .right-info .address-box .contact-box-part{
+   float:left;
+    width:50%;
+}
+.contact-us-fix .right-info .address-box{
+    width:80%;
+}
+.contact-us-fix .right-info .address-box p{
+    color:white;
+}
+.contact-us-fix .right-info .address-box hr{
+   background-color:#fff;
+}
+
+
+/* CHI TIET DICH VU */
+.out-address-bottom{
+    padding-bottom: 56px;
+}
+
+
+.left-contact .box-pg{
+    position: inherit;
+    width: 552px;
+    float: right;
+    margin-top:20px;
+}
+.left-contact .box-pg ul li a{
+    color: #6D6D6D;
+    font-size: 14px;
+}
+/*
+.modal::before{
+    background: transparent !important;
+}*/
+
+
+.maps{
+    height:451px;
+}
+
+.hotline .btn-hotline-fx .coccoc-alo-phone .coccoc-mt{
+    top:125px;
+}
+.dangki-kv .icon-select {
+    float: right;
+    width: 96%;
+    position: relative;
+}
+.dangki-kv .sl-kv{
+    position: relative;
+}
+.dangki-kv .sl-kv:after{
+    content: url(../img/imgchange/address.png);
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    background-color: #eef4f1;
+    padding-right: 11px;
+    border-radius: 25px;
+}
+
+.sl-sv:after{
+    content: url(../img/imgchange/bottom.png);
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    padding-right: 15px;
+    background-color: #eef4f1;
+    border-radius: 34px;
+
+}
+.dangki-kv .icon-select .choose-service{
+   width:100%;
+}
+/*
+.dangki-kv .icon-select img{
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 5px;
+}*/
+#datepicker{
+    width:48%;
+    float:left;
+    position: relative;
+}
+#datepicker input{
+   border-radius: 21px;
+    color: #056839;
+    background-color: #106a3f12;
+    font-family: light;
+    font-weight: 700;
+}
+#datepicker input:focus{
+    border-color:#056839;
+    box-shadow: 0 0 0 0.2rem #106a3f12;
+}
+#datepicker .input-group-addon{
+    position: absolute;
+    right: 14px;
+    top: 6px;
+}
+#datepicker .input-group-addon:after{
+    content: url("../img/imgchange/calendar.png");
+}
+
+
+/*
+.modal-content{
+    border-radius: 50px;
+    width:70%;
+}*/
+.pagination-gt{
+    float: left;
+    width: 100%;
+}
+.price .price-item .box-price-item ul li{
+    color: #056839;
+    font-size: 14px;
+    font-family: light;
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+}
+.price .price-item .box-price-item ul li:after{
+    content: url(../img/imgchange/tick.png);
+    left: 0;
+    position: absolute;
+}
+
+.price .price-item .box-price-item ul:last-child li:after{
+    content: url(../img/imgchange/heart.png);
+    left: 0;
+    position: absolute;
+}
+.price .col-md-4{
+    height:905px;
+}
+/*
+
+.out-address .box-slide{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+.out-address .box-slide .box-slide-l{
+    flex: 1 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+*/
+
+/*
+
+.modal-open .modal{
+    display:flex !important;
+}
+
+.modal-dialog{
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+
+*/
+
+.modal-bg-fix .modal-content{
+    background:transparent;
+    border:none;
+}
+.box-slide1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+
+.row-dcxn{
+    display: grid;
+    grid-template-columns: calc(50% - (30px * 1/2)) calc(50% - (30px * 1/2));
+    grid-column-gap: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-top:30px;
+
+}
+/*.box-address-item .box-item*/
+.box-address-item{
+    flex: 1 0;
+
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    /*padding: 30px 0px 30px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;*/
+}
+.box-address-item:hover {
+    box-shadow: 0px 3px 15px #00000029;
+    transition: 0.5s;
+    border: none;
+}

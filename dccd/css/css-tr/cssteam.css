@@ -1,0 +1,19 @@
+.team{
+    margin-top: 80px;
+}
+.team-item .content-box h4{
+    color: #be1a2b;
+}
+/*
+.titlelight p{
+    content: '\f86c';
+    font-family: fontawesome;
+}*/
+@media screen and (min-width: 1200px){
+    .team-item:nth-child(2){
+        padding-right: 0px;
+    }
+    .team-item:nth-child(3){
+        padding-left: 0px;
+    }
+}

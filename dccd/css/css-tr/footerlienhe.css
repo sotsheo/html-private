@@ -1,0 +1,90 @@
+@media screen and (min-width: 1200px){
+    body .container-fluid{
+        max-width: 1520px;
+    }
+
+}
+/* FOOTER LIEN HE */
+.footer-lienhe{
+    background-image: url("../img/footerlienhe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer-lienhe:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: #17291A;
+    opacity:79%;
+}
+
+.form-footer{
+    border-bottom: 1px solid #fff;
+}
+.form-footer input{
+    background-color: transparent;
+    border: none;
+}
+
+.form-footer input:focus{
+    outline: 0;
+}
+.form-footer input::placeholder{
+    color:#fff;
+}
+.form-footer button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+.form-footer button:focus{
+    outline: 0;
+}
+/*
+.form-footer button img{
+    width: 20px;
+}*/
+h4{
+    font-size: 36px;
+}
+hr{
+    background-color:#fff;
+}
+.icon-footer{
+    float:left;
+}
+
+.copyright p{
+    margin-top: 100px;
+}
+body h4{
+    font-family: UTM Alter Gothic;
+    font-size: 35px;
+}
+
+/*
+
+.form-footer button:before{
+   content: '\f178';
+    font-family: fontawesome;
+    color:#fff;
+    font-size: 20px;
+}
+*/
+
+@media screen and (max-width: 1200px)
+{
+    .copyright p {
+        margin-top: 10px;
+    }
+}
+
+
+
+.form-footer button img{
+   width: 20px;
+}
